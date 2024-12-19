@@ -12,7 +12,7 @@
   list-style: none;
   background-color: black;
   padding: 15px;
-  margin: 5px 0;
+  margin: 5px 0 10px;
 }
 
 .header a {
@@ -47,4 +47,13 @@
 
   /* padding là khoảng cách giữa border với nội dung của thẻ  */
   /* thuộc tính padding cũng tương tự với margin  */
+}
+
+/* CAROUSEL */
+.carousel {
+  background-image: url(./../img/slider_1.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
