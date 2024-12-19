@@ -1,6 +1,7 @@
 /* GLOBAL  */
 * {
   font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
 }
 
 /* HEADER */
@@ -47,4 +48,21 @@
 
   /* padding là khoảng cách giữa border với nội dung của thẻ  */
   /* thuộc tính padding cũng tương tự với margin  */
+}
+
+/* CAROUSEL */
+.carousel {
+  background-image: url(./../img/slider_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+/* PRODUCTS */
+.products__item {
+  float: left;
+  width: 25%;
+  /* margin: 0 10px; */
+  padding: 0 10px;
 }
