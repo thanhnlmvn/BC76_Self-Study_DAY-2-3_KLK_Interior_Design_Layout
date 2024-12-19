@@ -1,6 +1,11 @@
 /* GLOBAL  */
 * {
   font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
 }
 
 /* HEADER */
@@ -47,4 +52,51 @@
 
   /* padding là khoảng cách giữa border với nội dung của thẻ  */
   /* thuộc tính padding cũng tương tự với margin  */
+}
+
+/* CAROUSEL */
+.carousel {
+  background-image: url(./../img/slider_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+/* PRODUCTS */
+.products {
+  margin-bottom: 70px;
+}
+
+.products h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.products__item {
+  float: left;
+  width: 25%;
+  /* margin: 0 10px; */
+  padding: 0 10px;
+}
+
+.products__item img {
+  width: 100%;
+}
+
+.products__item h3 {
+  font-size: 20px;
+}
+
+.products__item p {
+  font-size: 17px;
+}
+
+.products__item button {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 15px;
 }
