@@ -1,0 +1,13 @@
+/* HEADER */
+.header img {
+  width: 250px;
+}
+
+.header ul {
+  list-style: none;
+  background-color: black;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
