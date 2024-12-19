@@ -1,6 +1,7 @@
 /* GLOBAL  */
 * {
   font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
 }
 
 /* HEADER */
@@ -52,8 +53,11 @@
 /* CAROUSEL */
 .carousel {
   background-image: url(./../img/slider_1.jpg);
-  height: 550px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 550px;
 }
+
+
+
