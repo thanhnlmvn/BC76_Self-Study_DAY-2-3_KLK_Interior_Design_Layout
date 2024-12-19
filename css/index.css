@@ -63,6 +63,47 @@
   height: 550px;
 }
 
+/* INTRO */
+.intro__text {
+  font-size: 20px;
+  margin: 25px 0 40px;
+}
+
+.intro__text span {
+  color: red;
+  font-weight: bold;
+}
+
+/* .intro__left {
+  float: left;
+  width: 50%;
+}
+
+.intro__right {
+  float: left;
+  width: 50%;
+} */
+
+.intro__left,
+.intro__right {
+  float: left;
+  width: 50%;
+}
+
+.intro__smallItem {
+  float: left;
+  width: 50%;
+}
+
+.intro__item {
+  padding: 0 15px 25px;
+}
+
+.intro__item img {
+  width: 100%;
+  display: block;
+}
+
 /* PRODUCTS */
 .products {
   margin-bottom: 70px;
