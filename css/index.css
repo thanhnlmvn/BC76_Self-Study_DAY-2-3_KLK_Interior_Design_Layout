@@ -1,3 +1,8 @@
+/* GLOBAL  */
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /* HEADER */
 .header img {
   width: 250px;
@@ -6,8 +11,49 @@
 .header ul {
   list-style: none;
   background-color: black;
+  padding: 15px;
+  margin: 5px 0 10px;
 }
+
 .header a {
   text-decoration: none;
   color: white;
+  font-size: 18px;
+}
+
+.header li {
+  display: inline;
+  margin: 0 10px;
+
+  /* Ví dụ margin vs padding */
+  /* margin: 20px; */
+  /* padding: 25px; */
+  /* border: 3px solid red; */
+
+  /* margin là khoảng cách giữa thẻ này với thẻ khác */
+  /* top,bottom,left,right */
+  /* margin: 20px; */
+  /* margin-top: 20px ; */
+
+  /* top,bottom = 10px - right,left = 20px */
+  /* margin: 10px 20px; */
+
+  /* top = 10px - bottom = 20px - left,right = 15px */
+  /* margin: 10px 15px 20px; */
+
+  /* top,right,bottom,left */
+  /* theo kim đồng hồ */
+  /* margin: 10px 15px 20px 25px; */
+
+  /* padding là khoảng cách giữa border với nội dung của thẻ  */
+  /* thuộc tính padding cũng tương tự với margin  */
+}
+
+/* CAROUSEL */
+.carousel {
+  background-image: url(./../img/slider_1.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
